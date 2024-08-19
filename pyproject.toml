@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="odoo"
+authors=[
+  {name="OpenSPP.org", email="contact@openspp.org"}
+]
+version="17.0"
+requires-python = ">=3.10"
+description="Odoo stub package for use with OpenSPP"
+
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: LGPL-3",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 17.0",
+]
